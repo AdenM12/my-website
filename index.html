@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FAF2E9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            max-width: 800px;
+        }
+        .card {
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+        }
+        .card:nth-child(1) { background-color: #D2E4FC; color: #B35E20; }
+        .card:nth-child(2) { background-color: #C9A3E6; }
+        .card:nth-child(3) { background-color: #D8A24A; }
+        .card:nth-child(4) { background-color: #E3643D; }
+        .card:nth-child(5) { background-color: #E15A24; }
+        .card:nth-child(6) { background-color: #B4A8E4; }
+        .card:nth-child(7) { background-color: #E8C78C; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">Team Updates</div>
+        <div class="card">Employee Handbook</div>
+        <div class="card">Project Reports</div>
+        <div class="card">Hiring Hub</div>
+        <div class="card">Annual Report</div>
+        <div class="card">New Services</div>
+        <div class="card">Company Culture</div>
+    </div>
+</body>
+</html>
